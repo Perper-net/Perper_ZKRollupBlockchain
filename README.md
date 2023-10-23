@@ -17,12 +17,22 @@ While the template looks fine to me, when proving it, an error occurs during the
 
 The `input.json` is a sample input that should work correctly.
 
-## Steps to build & prove
+## Installation
+
+Please follow the instructions from here https://docs.circom.io/getting-started/installation to install the `circom` compiler and `snarkjs`.
+
+## Build & prove
 
 1. Run `./build.sh` to generate `WASM` code for witness generation
 2. Run `./gen_witness.sh` to generate the witness from the `input.json`
 3. Run `./gen_proof.sh`. The last command in the file is the one that creates the problem
   - `snarkjs groth16 prove zkey/transaction_0001.zkey witness.wtns proof/proof.json proof/public.json`
+
+For an explanation on all of the commands you can visit the other parts of the circom getting started guide:
+ - https://docs.circom.io/getting-started/writing-circuits
+ - https://docs.circom.io/getting-started/compiling-circuits
+ - https://docs.circom.io/getting-started/computing-the-witness
+ - https://docs.circom.io/getting-started/proving-circuits
 
 ## Error
 

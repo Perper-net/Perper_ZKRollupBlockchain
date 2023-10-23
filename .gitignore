@@ -2,3 +2,7 @@ transaction_js/
 powers_of_tau/
 zkey/
 proof/
+
+transaction.r1cs
+transaction.sym
+witness.wtns
