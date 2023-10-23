@@ -1,0 +1,120 @@
+logText: multiexp A (A Points)
+buffBases: Uint8Array(320) [
+   79, 217,  21, 111,  91,  34, 204, 152, 143, 203, 208,  39,
+   96,  72,  95,  37,  80,  57, 130, 153,  59,  17, 172,  61,
+   88,  82,  62, 147, 125, 168, 101,  39, 248, 152,  73,  62,
+   86, 231, 209,  32, 232, 214,  33, 235, 105, 118, 196,  75,
+  112,  81, 232,  20, 146, 108, 154, 199,  53, 172, 215, 142,
+  251,  58,  29,  46, 196,  71,  58,  51,  85,  11, 240,  35,
+  147, 181, 169, 184, 200, 133, 211,  33, 204,  13,  23, 133,
+   97, 207, 134, 122,  73, 246, 243, 245,  67, 231,  43,  25,
+    7,  29,  33,  78,
+  ... 220 more items
+]
+buffScalars: Uint8Array(160) [
+    1, 0, 0, 0,   0, 0, 0, 0,   0, 0, 0, 0,
+    0, 0, 0, 0,   0, 0, 0, 0,   0, 0, 0, 0,
+    0, 0, 0, 0,   0, 0, 0, 0, 100, 0, 0, 0,
+    0, 0, 0, 0,   0, 0, 0, 0,   0, 0, 0, 0,
+    0, 0, 0, 0,   0, 0, 0, 0,   0, 0, 0, 0,
+    0, 0, 0, 0, 100, 0, 0, 0,   0, 0, 0, 0,
+    0, 0, 0, 0,   0, 0, 0, 0,   0, 0, 0, 0,
+    0, 0, 0, 0,   0, 0, 0, 0,   0, 0, 0, 0,
+  100, 0, 0, 0,
+  ... 60 more items
+]
+buffBases.byteLength: 320
+buffScalars.byteLength: 160
+nPoints: 5
+sScalar: 32
+sGIn: 64
+inType: affine
+
+
+
+logText: multiexp B1 (B1 Points)
+buffBases: Uint8Array(320) [
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+  0, 0, 0, 0,
+  ... 220 more items
+]
+buffScalars: Uint8Array(160) [
+    1, 0, 0, 0,   0, 0, 0, 0,   0, 0, 0, 0,
+    0, 0, 0, 0,   0, 0, 0, 0,   0, 0, 0, 0,
+    0, 0, 0, 0,   0, 0, 0, 0, 100, 0, 0, 0,
+    0, 0, 0, 0,   0, 0, 0, 0,   0, 0, 0, 0,
+    0, 0, 0, 0,   0, 0, 0, 0,   0, 0, 0, 0,
+    0, 0, 0, 0, 100, 0, 0, 0,   0, 0, 0, 0,
+    0, 0, 0, 0,   0, 0, 0, 0,   0, 0, 0, 0,
+    0, 0, 0, 0,   0, 0, 0, 0,   0, 0, 0, 0,
+  100, 0, 0, 0,
+  ... 60 more items
+]
+buffBases.byteLength: 320
+buffScalars.byteLength: 160
+nPoints: 5
+sScalar: 32
+sGIn: 64
+inType: affine
+
+
+
+logText: multiexp B2 (B2 Points)
+buffBases: Uint8Array(640) [
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+  0, 0, 0, 0,
+  ... 540 more items
+]
+buffScalars: Uint8Array(160) [
+    1, 0, 0, 0,   0, 0, 0, 0,   0, 0, 0, 0,
+    0, 0, 0, 0,   0, 0, 0, 0,   0, 0, 0, 0,
+    0, 0, 0, 0,   0, 0, 0, 0, 100, 0, 0, 0,
+    0, 0, 0, 0,   0, 0, 0, 0,   0, 0, 0, 0,
+    0, 0, 0, 0,   0, 0, 0, 0,   0, 0, 0, 0,
+    0, 0, 0, 0, 100, 0, 0, 0,   0, 0, 0, 0,
+    0, 0, 0, 0,   0, 0, 0, 0,   0, 0, 0, 0,
+    0, 0, 0, 0,   0, 0, 0, 0,   0, 0, 0, 0,
+  100, 0, 0, 0,
+  ... 60 more items
+]
+buffBases.byteLength: 640
+buffScalars.byteLength: 160
+nPoints: 5
+sScalar: 32
+sGIn: 128
+inType: affine
+
+
+
+logText: multiexp C (C Points)
+buffBases: Uint8Array(0) []
+buffScalars: Uint8Array(0) []
+buffBases.byteLength: 0
+buffScalars.byteLength: 0
+nPoints: 0
+sScalar: NaN
+sGIn: 64
+inType: affine
+
+
+
+[ERROR] snarkJS: Error: Scalar size does not match
+    at _multiExp (/home/user/.nvm/versions/node/v18.13.0/lib/node_modules/snarkjs/node_modules/ffjavascript/build/main.cjs:4988:19)
+    at WasmCurve.multiExpAffine (/home/user/.nvm/versions/node/v18.13.0/lib/node_modules/snarkjs/node_modules/ffjavascript/build/main.cjs:5025:22)
+    at groth16Prove$1 (/home/user/.nvm/versions/node/v18.13.0/lib/node_modules/snarkjs/build/cli.cjs:5768:33)
+    at async Object.groth16Prove [as action] (/home/user/.nvm/versions/node/v18.13.0/lib/node_modules/snarkjs/build/cli.cjs:12976:36)
+    at async clProcessor (/home/user/.nvm/versions/node/v18.13.0/lib/node_modules/snarkjs/build/cli.cjs:481:27)
