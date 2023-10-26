@@ -6,7 +6,7 @@ Welcome to the `Perper ZKRollup Blockchain` repository! Initially conceived as a
 
 ## Overview
 
-Perper ZKRollup Blockchain is a novel approach to blockchain scalability and privacy. By leveraging zkRollups, we can batch multiple transactions into a single proof and store it on the Ethereum mainnet, drastically reducing gas costs and increasing throughput. This project seeks to integrate this technology into a private blockchain environment, providing the benefits of Ethereum's security and decentralization while maintaining the flexibility and control of a private chain.
+Initially designed to cater to the Perper ecosystem's requirements, this project integrates zkRollups technology to create a private blockchain environment on Ethereum. This ensures that users of the Perper application can transact with one another in complete anonymity, without revealing their addresses. By leveraging zkRollups, we can batch multiple transactions into a single proof and store it on the Ethereum mainnet, significantly reducing gas costs and enhancing throughput. While our primary focus is to provide a privacy-centric solution, our long-term vision is to evolve and serve as a Layer 2 solution provider on Ethereum, combining the best of Ethereum's security and decentralization with the efficiency and scalability of zkRollups.
 
 ## 🌟 Vision
 
@@ -14,17 +14,14 @@ In the initial phase, our primary focus is to cater to the specific needs of the
 
 ## 🤝 Join the Movement
 
-We believe in the power of community. As we embark on this journey to reshape the blockchain landscape, we invite enthusiasts, developers, and visionaries to join us. Your contribution today can make you a part of the core coding team, and based on your engagement, you'll be rewarded with future blockchain tokens.
+We believe in the power of community. As we embark on this journey to reshape the blockchain landscape, we invite enthusiasts, developers, and visionaries to join us. Your contributions today could earn you a place in the core coding team, and based on your engagement, you'll be rewarded with future blockchain tokens.
 
 ### Features
 
 - zkRollups: Harnessing the power of zkRollups to batch multiple transactions, ensuring reduced gas costs and heightened throughput.
 - Ethereum Compatibility: Crafted to seamlessly integrate with the Ethereum Virtual Machine (EVM).
-
-20-Minute Block Time
-Leveraging the power of zkRollups, all transactions on the Perper ZKRollup Blockchain are processed almost instantly, ensuring a seamless user experience. However, to make these transactions visible on the blockchain, there's a consistent 20-minute interval between block submissions. This design choice is rooted in our vision to keep transaction fees extremely low. By batching multiple transactions and submitting them at regular intervals, we can drastically reduce the cost per transaction, making the blockchain more accessible and affordable for all users.
-
 - Nonce & Merkle Trees: Incorporating nonce for block connectivity and Merkle trees for streamlined data management.
+- 20-Minute Block Time: Leveraging the power of zkRollups, all transactions on the Perper ZKRollup Blockchain are processed almost instantly, ensuring a seamless user experience. However, to make these transactions visible on the blockchain, there's a consistent 20-minute interval between block submissions. This design choice is rooted in our vision to keep transaction fees extremely low. By batching multiple transactions and submitting them at regular intervals, we can drastically reduce the cost per transaction, making the blockchain more accessible and affordable for all users.
 
 ## Getting Started
 
@@ -34,7 +31,7 @@ The project is divided into multiple parts:
 
 2. [Smart Contracts](contracts/README.md) - Smart contracts
 
-Each subproject has it's own `README.md` file that you can read to find a more detailed explanation and a way to use that subproject.
+Each subproject has its own `README.md` file that you can read to find a more detailed explanation and a way to use that subproject.
 
 ## Contributing
 
