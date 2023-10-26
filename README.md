@@ -1,18 +1,30 @@
-# Perper ZKRollupEVM
+# Perper ZKRollup Blockchain
 
-Welcome to the Perper ZKRollupEVM repository! This project aims to create a private blockchain inside an Ethereum smart contract that utilizes zkRollups for scalability and privacy.
+![Perper ZKRollup Blockchain Logo](images/perper-logo.png)
+
+Welcome to the `Perper ZKRollup Blockchain` repository! Initially conceived as a solution for the [perper.net](https://perper.net) ecosystem, our vision has expanded. We aim to evolve into a formidable player in the Ethereum Layer 2 (L2) Blockchain space.
 
 ## Overview
 
-ZKRollupEVM is a novel approach to blockchain scalability and privacy. By leveraging zkRollups, we can batch multiple transactions into a single proof and store it on the Ethereum mainnet, drastically reducing gas costs and increasing throughput. This project seeks to integrate this technology into a private blockchain environment, providing the benefits of Ethereum's security and decentralization while maintaining the flexibility and control of a private chain.
+Perper ZKRollup Blockchain is a novel approach to blockchain scalability and privacy. By leveraging zkRollups, we can batch multiple transactions into a single proof and store it on the Ethereum mainnet, drastically reducing gas costs and increasing throughput. This project seeks to integrate this technology into a private blockchain environment, providing the benefits of Ethereum's security and decentralization while maintaining the flexibility and control of a private chain.
+
+## 🌟 Vision
+
+In the initial phase, our primary focus is to cater to the specific needs of the [perper.net](https://perper.net) ecosystem. However, as we progress, we envision Perper ZKRollup Blockchain to stand as a robust Ethereum L2 solution. Our ambition is not just to be another player but to redefine the standards of scalability, privacy, and efficiency in the blockchain world.
+
+## 🤝 Join the Movement
+
+We believe in the power of community. As we embark on this journey to reshape the blockchain landscape, we invite enthusiasts, developers, and visionaries to join us. Your contribution today can make you a part of the core coding team, and based on your engagement, you'll be rewarded with future blockchain tokens.
 
 ### Features
 
-- zkRollups: Utilizes zkRollups to batch multiple transactions into a single proof, reducing gas costs and increasing throughput.
-- Private Blockchain: Operates as a private blockchain inside an Ethereum smart contract.
-- EVM Compatibility: Designed to be compatible with the Ethereum Virtual Machine (EVM), allowing for seamless integration with existing Ethereum tools and infrastructure.
-- 20-Minute Block Time: Enforces a 20-minute interval between block submissions for consistent block times.
-- Nonce & Merkle Trees: Uses a nonce to connect blocks and employs Merkle trees for efficient data management.
+- zkRollups: Harnessing the power of zkRollups to batch multiple transactions, ensuring reduced gas costs and heightened throughput.
+- Ethereum Compatibility: Crafted to seamlessly integrate with the Ethereum Virtual Machine (EVM).
+
+20-Minute Block Time
+Leveraging the power of zkRollups, all transactions on the Perper ZKRollup Blockchain are processed almost instantly, ensuring a seamless user experience. However, to make these transactions visible on the blockchain, there's a consistent 20-minute interval between block submissions. This design choice is rooted in our vision to keep transaction fees extremely low. By batching multiple transactions and submitting them at regular intervals, we can drastically reduce the cost per transaction, making the blockchain more accessible and affordable for all users.
+
+- Nonce & Merkle Trees: Incorporating nonce for block connectivity and Merkle trees for streamlined data management.
 
 ## Getting Started
 
